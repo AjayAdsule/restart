@@ -84,3 +84,55 @@
     height: 140px;
     width: 100%;
 }
+
+/* this is row5 section */
+.row5>img{
+    height: 140px;
+    width: 100%;
+}
+
+/* this is row6 section */
+/* .row6{
+    position: relative;
+} */
+
+.row6-img{
+    padding: 0% 0%;
+    width: 12%;
+}
+.row6-img>img{
+    height: 200px;
+    width: 106%;
+}
+.pos6-0{
+    position: absolute;
+    left: 0%;
+}
+.pos6-1{
+    position: absolute;
+    left: 13%;
+}
+.pos6-2{
+    position: absolute;
+    left: 25%;
+}
+.pos6-3{
+    position: absolute;
+    left: 37%;
+}
+.pos6-4{
+    position: absolute;
+    left: 49%;
+}
+.pos6-5{
+    position: absolute;
+    left: 62%;
+}
+.pos6-6{
+    position: absolute;
+    left: 75%;
+}
+.pos6-7{
+    position: absolute;
+    left: 87%;
+}
