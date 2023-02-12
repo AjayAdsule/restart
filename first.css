@@ -12,11 +12,14 @@
     font-weight: bolder;
     
 }
+.row-0{
+    height: 35px;
+}
 
 /* this is row1 css */
 .row1{
     border: 2px solid red;
-    position: relative;
+    /* position: relative; */
     height: 234px;
 }
 .bo>img{
@@ -50,11 +53,12 @@
 }
 /* this is 2 row section */
 .row2{
-    /* border: 2px solid red */
+    border: 2px solid red;
+    height: 170px;
 }
 .row2>img{
-    height: 150px;
-    width: 100%;
+    height: 133px;
+    width: 86%;
 }
 
 /* this is row3 section */
@@ -294,33 +298,251 @@
 .row12{
     padding: 0% 0%;
     position: relative;
+    height: 300px;
    
 }
 .row12-img>img{
     height: 280px;
-    width: 300%;
+    width: 280%;
 }
 .pos12-0{
     position: absolute;
-    left: -5%;
+    left: 7px;
 }
 .pos12-1{
     position: absolute;
-    left: 13%;
+    left: 225px;
 }
 .pos12-2{
     position: absolute;
-    right: 60%;
+    right: 745px;
 }
 .pos12-3{
     position: absolute;
-    right: 42%;
+    right: 530px;
 }
 .pos12-4{
     position: absolute;
-    right: 24%;
+    right: 311px;
 }
 .pos12-5{
     position: absolute;
-    right: 6%;
+    right: 93px;
+}   
+
+/* this is row13 */
+.row13{
+    padding: 0% 0%;
+    position: relative;
+    height: 300px;
+    background-color: #ffffff;
+}
+.row13-img>img{
+    height: 280px;
+    width: 280%;
+}
+.pos13-0{
+    position: absolute;
+    left: 7px;
+}
+.pos13-1{
+    position: absolute;
+    left: 225px;
+}
+.pos13-2{
+    position: absolute;
+    right: 745px;
+}
+.pos13-3{
+    position: absolute;
+    right: 530px;
+}
+.pos13-4{
+    position: absolute;
+    right: 311px;
+}
+.pos13-5{
+    position: absolute;
+    right: 93px;
+}  
+
+/* this is row14 */
+.row14{
+    padding: 0% 0%;
+    position: relative;
+    height: 300px;
+    background-color: #ffffff;
+}
+.row14-img>img{
+    height: 280px;
+    width: 280%;
+}
+.pos14-0{
+    position: absolute;
+    left: 7px;
+}
+.pos14-1{
+    position: absolute;
+    left: 225px;
+}
+.pos14-2{
+    position: absolute;
+    right: 745px;
+}
+.pos14-3{
+    position: absolute;
+    right: 530px;
+}
+.pos14-4{
+    position: absolute;
+    right: 311px;
+}
+.pos14-5{
+    position: absolute;
+    right: 93px;
+}  
+
+/* this is row15 */
+.row15{
+    padding: 0% 0%;
+    position: relative;
+    height: 300px;
+    background-color: #ffffff;
+}
+.row15-img>img{
+    height: 280px;
+    width: 280%;
+}
+.pos15-0{
+    position: absolute;
+    left: 7px;
+}
+.pos15-1{
+    position: absolute;
+    left: 225px;
+}
+.pos15-2{
+    position: absolute;
+    right: 745px;
+}
+.pos15-3{
+    position: absolute;
+    right: 530px;
+}
+.pos15-4{
+    position: absolute;
+    right: 311px;
+}
+.pos15-5{
+    position: absolute;
+    right: 93px;
+}  
+/* this is row16 */
+.row16{
+    padding: 0% 0%;
+    position: relative;
+    height: 300px;
+    background-color: #ffffff;
+}
+.row16-img>img{
+    height: 280px;
+    width: 280%;
+}
+.pos16-0{
+    position: absolute;
+    left: 7px;
+}
+.pos16-1{
+    position: absolute;
+    left: 225px;
+}
+.pos16-2{
+    position: absolute;
+    right: 745px;
+}
+.pos16-3{
+    position: absolute;
+    right: 530px;
+}
+.pos16-4{
+    position: absolute;
+    right: 311px;
+}
+.pos16-5{
+    position: absolute;
+    right: 93px;
+}  
+/* this is row17 */
+.row17{
+    padding: 0% 0%;
+    position: relative;
+    height: 300px;
+    background-color: #ffffff;
+}
+.row17-img>img{
+    height: 280px;
+    width: 280%;
+}
+.pos17-0{
+    position: absolute;
+    left: 225px;
+}
+.pos17-1{
+    position: absolute;
+    right: 745px;
+}
+.pos17-2{
+    position: absolute;
+    right: 530px;
+}
+.pos17-3{
+    position: absolute;
+    right: 311px;
+}
+/* this is footer row */
+.footer-row{
+    height: 400px;
+    border: 2px solid green;
+    position: relative;
+    background-color: #bfc4c949;
+}
+.fot-col{
+    padding-left: 80px;
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 20%;
+   
+}
+.fot-col-2{
+    height: 350px;
+    border: 2px solid blue;
+    width: 20%;
+}
+.fot-col-3{
+    height: 350px;
+    width: 30%;
+    border: 2px solid blue;
+}
+.fot-col-4{
+    height: 350px;
+    width: 30%;
+    border: 2px solid blue;
+}
+.span1>a{
+    text-decoration: none;
+    color:black;
+    padding-top: 1%;
+}
+.list{
+    margin-top: 30px;
+}   
+.list>li{
+    list-style-type: none;
+    margin-top: 18%;
+    color: black;
+    font-weight: bold;   
+}
+.list>li>a{
+    text-decoration: none;
+    color: #0d10127a;
 }
