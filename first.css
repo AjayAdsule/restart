@@ -54,6 +54,7 @@
 }
 .row2>img{
     height: 150px;
+    width: 100%;
 }
 
 /* this is row3 section */
@@ -154,7 +155,7 @@
 .pos7-0{
     position: absolute;
     left: 0%;
-}
+} 
 .pos7-1{
     position: absolute;
     left: 13%;
@@ -186,11 +187,13 @@
 /* this is row8 section */
 .row8>img{
     height: 145px;
+    width: 100%;
 }
 /* this is row 9 section */
 .row9{
     border: 2px solid blue;
     position: relative;
+    height: 209px;
 }
 .row9-img{
     padding: 0% 0%;
@@ -231,4 +234,93 @@
 .pos9-7{
     position: absolute;
     left: 87%;
+}
+
+/* this is row10 section */
+.row10{
+    position: relative;
+    border: 2px solid red;
+    height: 209px;
+}
+.row10-img{
+    padding: 0% 0%;
+    width: 12%;
+}
+.row10-img>img{
+    height: 205px;
+    width: 106%;
+}
+.pos10-0{
+    position: absolute;
+    left: 0%;
+}
+.pos10-1{
+    position: absolute;
+    left: 13%;
+}
+.pos10-2{
+    position: absolute;
+    left: 25%;
+}
+.pos10-3{
+    position: absolute;
+    left: 37%;
+}
+.pos10-4{
+    position: absolute;
+    left: 49%;
+}
+.pos10-5{
+    position: absolute;
+    left: 62%;
+}
+.pos10-6{
+    position: absolute;
+    left: 75%;
+}
+.pos10-7{
+    position: absolute;
+    left: 87%;
+}
+
+/* this is row11 */
+.row11>img{
+    height: 110px;
+    width: 100%;
+    padding: 0% 0%;
+}
+
+/* this is row12 section */
+.row12{
+    padding: 0% 0%;
+    position: relative;
+   
+}
+.row12-img>img{
+    height: 280px;
+    width: 300%;
+}
+.pos12-0{
+    position: absolute;
+    left: -5%;
+}
+.pos12-1{
+    position: absolute;
+    left: 13%;
+}
+.pos12-2{
+    position: absolute;
+    right: 60%;
+}
+.pos12-3{
+    position: absolute;
+    right: 42%;
+}
+.pos12-4{
+    position: absolute;
+    right: 24%;
+}
+.pos12-5{
+    position: absolute;
+    right: 6%;
 }
