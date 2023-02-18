@@ -1,44 +1,32 @@
-function te(){
-    let a="outer"
-    console.log(`this is ${a} part of function`)
-    return ()=>{
-        console.log("this is inner part of function")
-    }
+// make async function
+let getdate=()=>{
+    return new Date().getHours()
+    +":"
+    + new Date().getMinutes()
+    +":"
+    + new Date().getSeconds()
 }
 
-// let b=te()
-// b()
+//learning async function
+async function whe(){
+    let mumbai=new Promise((reslove)=>{
+        setTimeout(() => {
+            reslove("21 deg")
+        }, 2000);
+    })
+    let delhi=new Promise((reslove)=>{
+        setTimeout(() => {
+            reslove("27 deg")
+        }, 5000);
+    })
+    console.log(`${getdate()} fethching mumbai whether......`)
+    let mumw= await mumbai
+    
+    console.log(`${getdate()} mumbai whether is ${mumw}`)
+    console.log("fethching delhi whether......")
+    let delw=await delhi
+    console.log(`${getdate()} delhi whether is ${delw}`)
 
-let set_a=new Set()
-set_a=["ajay","vijay"]
-
-// console.log(typeof set_a)
-
-class person{
-    constructor(name,mob_no,dob,yop){
-        this.name=name;
-        this.mob_no=mob_no;
-        this.dob=dob;
-        this.yop=yop;
-        this.result=function(){
-            console.log(`My name is ${this.name}`)
-            console.log(`my date of birth is ${this.dob}`)
-            console.log(`my mobile number is ${mob_no}`)
-            console.log(`my year of passing is ${this.yop}`)
-        }
-    }
 }
-// let ajay=new person("ajay",1999,7977223876,2021)
-// ajay.result();
-
-// let arr=["ajay","vijay",["mohit","rohit",12,85]]
-// arr.push(["dinesh"])
-// arr.pop()
-// arr.sort()
-// console.log(arr)
-
-// create a function that will do async operation
-
-const time=()=>{
-    return new Date().getHours();
-}
+console.log("feth data from whether department")
+whe()

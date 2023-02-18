@@ -531,7 +531,7 @@
 .span1>a{
     text-decoration: none;
     color:black;
-    padding-top: 1%;
+    padding-left: 20%;
 }
 .list{
     margin-top: 30px;
@@ -543,6 +543,19 @@
     font-weight: bold;   
 }
 .list>li>a{
+    text-decoration: none;
+    color: #0d10127a;
+}
+.list1{
+    margin-top: 30px;
+}   
+.list1>li{
+    list-style-type: none;
+    /* margin-top: 18%; */
+    color: black;
+    font-weight: bold;   
+}
+.list1>li>a{
     text-decoration: none;
     color: #0d10127a;
 }

@@ -1,0 +1,199 @@
+.row1-img>a>img{
+    height: 375px;
+    padding-left: 30px;
+    width: 105%;
+}
+.row2-img>a>img{
+    height: 375px;
+    padding-left: 30px;
+    width: 105%;
+}
+.row3{
+    margin-top: 2rem;
+    padding-left: 25px;
+    
+}
+.row5{
+    margin-top: 3rem;
+}
+.row5-img>a>img{
+    height: 200px;
+    width: 95%;
+    padding-left: 15px;
+}
+.row6{
+    margin-top: 2rem;
+    padding-left: 15px;
+}
+.row7{
+    position: relative;
+    margin-top: 2rem;
+    height: 270px;
+}
+.row7-img>a>img{
+    height: 270px;
+    width: 115%;
+    
+}
+.pos7-0{
+    position: absolute;
+    left: 1rem;
+   
+}
+.pos7-1{
+    position: absolute;
+    left: 17rem;
+}
+.pos7-2{
+    position: absolute;
+    left: 33rem;
+}
+.pos7-3{
+    position: absolute;
+    left: 50rem;
+}
+.pos7-4{
+    position: absolute;
+    left: 67rem;
+}
+.row8>h3{
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+/* this is row9 */
+.row9{
+    position: relative;
+    margin-top: 3rem;
+    height: 200px;;
+}
+.row9-img>a>img{
+    height: 200px;
+    width: 80%;
+}
+.pos9-0{
+    position: absolute;
+    left: 2rem;
+}
+.pos9-1{
+    position: absolute;
+    left: 15rem;
+}
+.pos9-2{
+    position: absolute;
+    left: 29rem;
+}
+.pos9-3{
+    position: absolute;
+    left: 43rem;
+}
+.pos9-4{
+    position: absolute;
+    left: 56rem;
+}
+.pos9-5{
+    position: absolute;
+    left: 69rem;
+}
+.row10>h3{
+    margin-top: 4rem;
+    padding-left: 2rem;
+}
+/* this is row11 */
+.row11{
+    position: relative;
+    height: 260px;
+    margin-top: 3rem;
+}
+.row11-img>a>img{
+    height: 260px;  
+    width: 100%;
+}
+.pos11-0{
+    position: absolute;
+    left: 3rem;
+}
+.pos11-1{
+    position: absolute;
+    left: 20rem;
+}
+.pos11-2{
+    position: absolute;
+    left: 37rem;
+}
+.pos11-3{
+    position: absolute;
+    left: 53rem;
+}
+.pos11-4{
+    position: absolute;
+    left: 69rem;
+}
+.row12>h3{
+    margin-top: 4rem;
+    padding-left: 2rem;
+}
+/* this is row13 */
+.row13{
+    margin-top: 3rem;
+    position: relative;
+    height: 310px;
+}   
+.row13-img>a>img{
+    height: 310px;
+    width: 100%;
+}
+.pos13-0{
+    position: absolute;
+    left: 2rem;
+}
+.pos13-1{
+    position: absolute;
+    left: 19rem;
+}
+.pos13-2{
+    position: absolute;
+    left: 36rem;
+}
+.pos13-3{
+    position: absolute;
+    left: 53rem;
+}
+.pos13-4{
+    position: absolute;
+    left: 69rem;
+}
+/* this is row14 */
+.row14>h3{
+    margin-top: 3rem;
+    padding-left: 2rem;
+}
+/* this is row15 */
+.row15{
+    margin-top: 3rem;
+    position: relative;
+    height: 310px;
+}   
+.row15-img>a>img{
+    height: 310px;
+    width: 100%;
+}
+.pos15-0{
+    position: absolute;
+    left: 2rem;
+}
+.pos15-1{
+    position: absolute;
+    left: 19rem;
+}
+.pos15-2{
+    position: absolute;
+    left: 36rem;
+}
+.pos15-3{
+    position: absolute;
+    left: 53rem;
+}
+.pos15-4{
+    position: absolute;
+    left: 69rem;
+}
