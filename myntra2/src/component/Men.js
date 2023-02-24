@@ -4,6 +4,28 @@ import './main.css';
 export default function Items() {
   return (
     <>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/e384cb32-690c-4ccf-a6cb-61df36960bb21651599573972-Workwear_Desk.jpg" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-bs-interval="10000">
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/b54399f0-6ed5-44b3-84b0-e9d5c1657aaa1651599573991-CR7_Desk_Baner.jpg" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item"data-bs-interval="10000">
+            <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/3/846beb79-ada7-48c3-a6c6-4448f276c2111651599573979-Sports-Shoes_Desk.jpg" class="d-block w-100" alt="..."/>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   {/* this is item part  */}
       <div className="head">
         <h3>BIGGEST DEALS ON TOP BRANDS</h3>
       </div>
@@ -167,6 +189,28 @@ export default function Items() {
         
         <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 row15-img pos15-4">
           <a href="/"><img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/49dd1ce9-d627-4c6e-b544-4be7e1f24a091597840342867-Content-footwear-essentials-flipflops.jpg" alt="flip-flop sliders" /></a>
+        </div>
+      </div>
+      {/* this is row16 */}
+      <div className="row row16">
+        <h3>TRENDING IN ACCESSORIES</h3>
+      </div>
+      {/* this is row17 */}
+      <div className="row row17">
+        <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 row17-img pos17-0">
+          <a href="/"><img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/2bcf907c-bc21-44cb-9021-7575a963b0ef1595934830671-Content-Accesories-Unisex-True-wirless-lets-get-free.jpg" alt="wire-headphone" /></a>
+        </div>
+        <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 row17-img pos17-1">
+          <a href="/"><img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/7/28/bddd9c73-e4f1-43c0-a073-2ff3c0e376b51595934830554-Content-Accesories-men-Sporty-Watches_.jpg" alt="sport watch" /></a>
+        </div>
+        <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 row17-img pos17-2">
+          <a href="/"><img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/5e68d729-b955-431c-930c-931d8b452d421597840217983-Content-accessories-color-white.png" alt="white-watch" /></a>
+        </div>
+        <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 row17-img pos17-3">
+          <a href="/"><img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/8363b55c-446f-4de2-bc5b-e75fd6fdfb2d1597840217862-Content-accessories-brand-fastrack.png" alt="fastrack" /></a>
+        </div>
+        <div className="col-lg-2 col-xs-2 col-sm-2 col-md-2 col-xl-2 col-xxl-2 row17-img pos17-4">
+          <a href="/"><img src="https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/19/274b3659-420d-43c2-8e4c-17249e6eaf8d1597840218139-Content-accessories-trend-minimalist.png" alt="minimilist" /></a>
         </div>
       </div>
     </>

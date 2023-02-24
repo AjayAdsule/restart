@@ -1,3 +1,9 @@
+.head>h3{
+    margin-top: 2rem;
+}
+.row1{
+    margin-top: 2rem;
+}
 .row1-img>a>img{
     height: 375px;
     padding-left: 30px;
@@ -194,6 +200,41 @@
     left: 53rem;
 }
 .pos15-4{
+    position: absolute;
+    left: 69rem;
+}
+/* this is row16 */
+.row16>h3{
+    margin-top: 3rem;
+    padding-left: 2rem;
+}
+/* this is row17 */
+.row17{
+    margin-top: 3rem;
+    position: relative;
+    height: 310px;
+}   
+.row17-img>a>img{
+    height: 310px;
+    width: 100%;
+}
+.pos17-0{
+    position: absolute;
+    left: 2rem;
+}
+.pos17-1{
+    position: absolute;
+    left: 19rem;
+}
+.pos17-2{
+    position: absolute;
+    left: 36rem;
+}
+.pos17-3{
+    position: absolute;
+    left: 53rem;
+}
+.pos17-4{
     position: absolute;
     left: 69rem;
 }

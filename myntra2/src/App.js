@@ -2,7 +2,10 @@ import './App.css';
 import Navbar from './component/Navbar';
 import Curosel from './component/Curosel';
 import './component/main.css'
-import Items from './component/Items';
+import Items from './component/Men';
+import Footer from './component/Footer';
+import Women from './component/Women';
+import Kids from './component/Kids';
 
 function App() {
   return (
@@ -11,11 +14,15 @@ function App() {
           ` <Navbar heading="Myntra"/>`
       </div>
       <div className="ban">
-        <Curosel/>
+        {/* <Curosel/> */}
       </div>
       <div className="item">
-        <Items/>
+        {/* <Items/> */}
+        {/* <Women/> */}
+        <Kids/>
+        {/* <Footer/> */}
       </div>
+  
     </div>
   );
 }

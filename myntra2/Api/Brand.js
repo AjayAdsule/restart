@@ -1,0 +1,55 @@
+db.brand.insert([
+    {
+        "Brand_Name":"Roadster",
+        "Brand_id":1
+    },
+    {
+        "Brand_Name":"eCraftindia",
+        "Brand_id":2
+    },
+    {
+        "Brand_Name":"Aeropostale",
+        "Brand_id":3
+    },
+    {
+        "Brand_Name":"ASIAN",
+        "Brand_id":4
+    },
+    {
+        "Brand_Name":"ASICS",
+        "Brand_id":5
+    },
+    {
+        "Brand_Name":"Diffrence of opinion",
+        "Brand_id":6
+    },
+    {
+        "Brand_Name":"HRX by Hrithik Roshon",
+        "Brand_id":7
+    },
+    {
+        "Brand_Name":"Adidas",
+        "Brand_id":8
+    },
+    {
+        "Brand_Name":"Puma",
+        "Brand_id":9
+    },
+    {
+        "Brand_Name":"The Bear House",
+        "Brand_id":10
+    },
+    {
+        "Brand_Name":"H&M",
+        "Brand_id":11
+    },
+    {
+        "Brand_Name":"Wrong",
+        "Brand_id":12
+    },
+    {
+        "Brand_Name":"Dillinger",
+        "Brand_id":13
+    },
+   
+])
