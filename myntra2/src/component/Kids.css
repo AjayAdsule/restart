@@ -53,3 +53,99 @@
     padding-left: 3rem;
     margin-top: 2rem;
 }
+/* .row4 section */
+.row4{
+    height: 95px ;
+    width: 100%;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+}
+.row4-img>a>img{
+    height: 90px;
+    width: 127%;
+    margin-left: -11px  ;
+    
+}
+.row4-img{
+    /* border: 2px solid red; */
+    width:117px;
+}
+.row5>h3{
+    padding-left: 3rem;
+    margin-top: 2rem;
+}
+/* this os row6 */
+.row6-img{
+    border: 2px solid red;
+;
+}
+.row6-img>a>img{
+    height: 295px;
+    width: 110%;
+    margin-left: -12px;
+}
+.row6 {
+    margin-top: 2rem;
+    height: 150%;
+    width: 126%;
+    padding-left: 19px;
+    margin-left: -43px;
+
+}
+/* row7 */
+.row7{
+    height:110px ;
+}
+.row7>h3{
+    padding-left: 3rem;
+    margin-top: 2rem;   
+    border: 2px solid red;
+    /* height: 50px; */
+}
+/* row8 */
+.row8{
+    height: 300px;
+    width: 100%;
+    border: 2px solid red;
+}
+.row8-img>a>img{
+    height: 250px;
+    width: 100%;
+}
+.row8-img{
+    border: 2px solid red;
+    width: 20%;
+}
+/* this is row9 */
+.row9{
+    height: 300px;
+    width: 100%;
+    border: 2px solid red;
+    margin-top: 0px;
+}
+.row9-img>a>img{
+    height: 250px;
+    width: 100%;
+}
+.row9-img{
+    border: 2px solid red;
+    width: 20%;
+}
+/* this is row10 */
+.row10>h3{
+    padding-left: 3rem;
+    margin-top: 2rem;   
+    border: 2px solid red;
+}
+/* row11 */
+.row11{
+    height: 1810px;
+    /* width: 100%; */
+    border: 2px solid red;
+    margin-top: 2rem;
+}
+
+.row11-img>a>img{
+    height: 600px;
+    width: 100%;
+}
