@@ -6,24 +6,19 @@ import Items from './component/Men';
 import Footer from './component/Footer';
 import Women from './component/Women';
 import Kids from './component/Kids';
+import Home from './Home';
 
 function App() {
   return (
     <div className="container-fluid">
-      <div className="nav">
-          ` <Navbar heading="Myntra"/>`
-      </div>
-      <div className="ban">
-        {/* <Curosel/> */}
-      </div>
-      <div className="item">
-        {/* <Items/> */}
+     <Navbar heading="Myntra"/>`
+       {/* <Curosel/> */}
+       {/* <Items/> */}
         {/* <Women/> */}
-        <Kids/>
+        {/* <Kids/> */}
+        <Home></Home>
         {/* <Footer/> */}
       </div>
-  
-    </div>
   );
 }
 

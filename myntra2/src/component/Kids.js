@@ -1,6 +1,7 @@
 import React from 'react'
 import './Kids.css'
 
+
 export default function Kids() {
   return (
     <>
@@ -254,7 +255,46 @@ export default function Kids() {
             </a>
         </div>
     </div>
+    {/* this is row14 */}
+    <div className="row row14">
+        <h3>BUDGET BUY</h3>
     </div>
+    {/* this is row15 */}
+    <div className="row row15">
+        <div className="col-md-2 col-sm-2 row15-img">
+            <a href="/">
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/df528847-96b6-48cc-9104-064ad788804c1604906588040-61-BudgetBuys-TshirtsUnder499.jpg" alt="T-shirt" />
+            </a>
+        </div>
+        <div className="col-md-2 col-sm-2 row15-img">
+            <a href="/">
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/e42fbdcd-31cd-43de-b1eb-0f3f4351e08d1604906588093-62-BudgetBuys-DressesUnder799.jpg" alt="Dresses" />
+            </a>
+        </div>
+        <div className="col-md-2 col-sm-2 row15-img">
+            <a href="/">
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/1abffc52-836d-4778-a034-a851b45e43c31604906588162-63-BudgetBuys-EthnicWearUnder999.jpg" alt="Ethic-wear" />
+            </a>
+        </div>
+        <div className="col-md-2 col-sm-2 row15-img">
+            <a href="/">
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/bb9520c5-20c6-496c-811e-4693bc2828b31604906588221-64-BudgetBuys-ShortsUnder599.jpg" alt="Shorts" />
+            </a>
+        </div>
+        <div className="col-md-2 col-sm-2 row15-img">
+            <a href="/">
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/8430d7ff-a2f4-496a-bf90-b1c3a8cc7d231604906588272-65-BudgetBuys-ValuePacksUnder799.jpg" alt="Value pack" />
+            </a>
+        </div>
+        <div className="col-md-2 col-sm-2 row15-img">
+            <a href="/">
+                <img src="https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2020/11/9/af518c66-a610-4ab7-91bf-b343b9c1b8501604906588337-66-BudgetBuys-FootwearUnder699.jpg" alt="Footwear" />
+            </a>
+        </div>
+    </div> 
+   
+   </div>
     </>
+    
   )
 }
