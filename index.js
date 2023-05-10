@@ -31,9 +31,29 @@
 // console.log("feth data from whether department")
 // whe()
 
-let p= async new Promise((resolve, reject) =>{
-    setTimeout(() => {
-        resolve("21 deg")
-    },2000)
-    
+let a=[12,45,45,78,41]
+let b=a.reduce((cur,sec)=>{
+    return cur+sec
 })
+// console.log(b)
+
+let arr=["red","yellow","green","maroon"]
+let [first,second]=arr
+// console.log(first)
+
+//>Write a function which returns the maximum of two number
+function max_num(a,b){
+    return Math.max(a,b)
+}
+// console.log(max_num(14,45))
+
+//Write a function which checks given width and height, returns true (landscape) if width is greater than height and vice versa<
+function land(width,height){
+    if(width>height){
+        console.log(true)
+    }
+    else{
+        console.log(false)
+    }
+}
+land(100,200)

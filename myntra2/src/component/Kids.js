@@ -30,7 +30,7 @@ export default function Kids() {
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div className="row row1">
+    <div className="row row1-0">
         <h3>FAVOURITE BRANDS</h3>
     </div>  
     <div className="row row2">

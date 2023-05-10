@@ -21,7 +21,31 @@ export default function Home() {
                         <img src="https://assets.myntassets.com/f_webp,w_350,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2018/2/2/11517563782565-furnishings.jpg" alt="furnishing" />
                     </a>
                 </div>
-                <div className="col-md-2 sub-row1-img"></div>
+                <div className="col-md-2 sub-row1-img">
+                    <ol>
+                       <a href="/">
+                        <li>Bed Sheet</li>
+                       </a>
+                       <a href="/">
+                        <li>Bedding set & Bedding Cover</li>
+                       </a>
+                       <a href="/">
+                        <li>Blanket</li>
+                       </a>
+                       <a href="/">
+                        <li>Blanket,Quits & Dohars</li>
+                       </a>
+                       <a href="/">
+                        <li>Curtan</li>
+                       </a>
+                       <a href="/">
+                        <li>Mats & Durries</li>
+                       </a>
+                       <a href="/">
+                        <li>Carpet</li>
+                       </a>
+                    </ol>
+                </div>
              
             </div>
             
@@ -53,6 +77,11 @@ export default function Home() {
                 <div className="col-md-2 sub-row1-img"></div>
             </div>
             
+        </div>
+        <div className="row row2">
+            <a href="/">
+                <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/banners/2018/2/1/11517478281102-Home-page-Desktop_12.jpg" alt=""Gets-inspired />
+            </a>
         </div>
       </div>    
     </>

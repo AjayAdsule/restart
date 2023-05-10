@@ -1,16 +1,16 @@
 .row1{
     height: 1500px;
     width: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin-top: 6rem;
 }
 .sub-row1{
     height: 500px;
     width: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .sub-row1-img{
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .sub-row1-img>h3{
     margin-left: 5rem;

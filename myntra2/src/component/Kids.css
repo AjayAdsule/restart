@@ -1,6 +1,9 @@
-.row1>h3{
+.row1-0>h3{
     padding-left: 5rem;
     margin-top: 2rem;
+}
+.row1{
+    height: 100px;
 }
 .row2{
    margin-top: 3rem;
